@@ -1,0 +1,1 @@
+const Waste = require('../models/Waste'); const Product = require('../models/Product'); const User = require('../models/User'); exports.stats = async (req,res)=>{ const totalWastes = await Waste.countDocuments(); const totalProducts = await Product.countDocuments(); const totalUsers = await User.countDocuments(); res.json({ totalWastes, totalProducts, totalUsers }); };

@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const ctrl = require('../controllers/waste'); const auth = require('../middleware/auth'); router.post('/', auth, ctrl.add); router.get('/', ctrl.list); module.exports = router;

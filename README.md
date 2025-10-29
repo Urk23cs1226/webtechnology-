@@ -1,0 +1,1 @@
+EcoCycle - Fullstack example. See backend and frontend folders. Run backend (cd backend; npm install; node server.js). Then frontend (cd frontend; npm install; npm start).

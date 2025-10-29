@@ -1,0 +1,105 @@
+# ==========================
+# Node.js (Backend)
+# ==========================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build and cache files
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# React (Frontend)
+# ==========================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Build output
+frontend/build/
+frontend/dist/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/out/
+
+# Test coverage
+frontend/coverage/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# OS / Editor files
+frontend/.DS_Store
+frontend/Thumbs.db
+frontend/.vscode/
+frontend/.idea/
+
+# ==========================
+# MongoDB / Misc
+# ==========================
+dump/
+data/
+*.bak
+*.seed
+*.tar.gz
+
+# ==========================
+# Optional (if using uploads)
+# ==========================
+uploads/
+temp/
+public/uploads/
+
+# ==========================
+# Optional (if using Docker)
+# ==========================
+docker-compose.override.yml
+.docker/

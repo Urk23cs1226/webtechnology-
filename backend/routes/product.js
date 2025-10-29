@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const ctrl = require('../controllers/product'); const auth = require('../middleware/auth'); router.get('/', ctrl.list); router.post('/', auth, ctrl.add); module.exports = router;
